@@ -32,7 +32,7 @@ import com.stiverson.projeto.cursomc.repositories.PedidoRepository;
 import com.stiverson.projeto.cursomc.repositories.ProdutoRepository;
 
 @SpringBootApplication
-public class CursomcApplication implements CommandLineRunner {
+public class CursoMcApplication implements CommandLineRunner {
 
 	@Autowired
 	private CategoriaRepository categoriaRepository;
@@ -63,7 +63,7 @@ public class CursomcApplication implements CommandLineRunner {
 	
 	
 	public static void main(String[] args) {
-		SpringApplication.run(CursomcApplication.class, args);
+		SpringApplication.run(CursoMcApplication.class, args);
 	}
 
 	@Override
