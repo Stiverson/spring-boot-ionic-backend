@@ -18,7 +18,7 @@ import com.stiverson.projeto.cursomc.domain.Endereco;
 import com.stiverson.projeto.cursomc.domain.enums.TipoCliente;
 import com.stiverson.projeto.cursomc.dto.ClienteDTO;
 import com.stiverson.projeto.cursomc.dto.ClienteNewDTO;
-import com.stiverson.projeto.cursomc.repositories.CidadeRepository;
+
 import com.stiverson.projeto.cursomc.repositories.ClienteRepository;
 import com.stiverson.projeto.cursomc.repositories.EnderecoRepository;
 import com.stiverson.projeto.cursomc.services.exceptions.DataIntegrityException;
@@ -30,8 +30,7 @@ public class ClienteService {
 	@Autowired
 	private ClienteRepository repo;
 	
-	@Autowired
-	private CidadeRepository cidadeRepository;
+	
 	
 	@Autowired
 	private EnderecoRepository enderecoRepository;
